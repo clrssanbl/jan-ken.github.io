@@ -131,7 +131,7 @@ function result(who) {
     timeOut = setTimeout(() => {
         ken.style.removeProperty("background-image");
         ken.classList.add("shake");
-        results = "";
+        results = "-";
         displayResult.innerHTML = results;
     }, 3000);
 }
